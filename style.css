@@ -1,0 +1,168 @@
+/* colors:
+carrot-orange: #F26101
+white: #fff;
+gray: #D9E8F5;
+light-blue: #91BED4;
+blue: #304269;
+color of footer:#2D2D2D; */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:600,400,100,300);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+/* C O M M O N */
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #F26101;
+  text-decoration:none;
+}
+
+body {
+  font: normal 300 13px Lato;
+  color: #fff;
+}
+
+.wrapper{
+  background: url(img/run.jpg), no-repeat 100% 50%;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+/* H E A D E R */
+/* navigation */
+
+.main-nav {
+  padding: 0;
+  text-align: center;
+
+}
+
+.main-nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 70px 0;
+}
+
+.main-logo h1 {
+  font-size: 75px;
+  text-align: center;
+  font-weight: 400;
+  color: #F26101;
+  margin: 10px 0 25px;
+}
+
+.main-logo a {
+  text-decoration: none;
+  color: #F26101;
+}
+
+
+/* M A I N * T H E M E ***********************************/
+
+form{
+  max-width:500px;
+  margin:20px auto;
+}
+.registration-header, .goal-header{
+  color:#fff;
+}
+
+input{
+  background:#D9E8F5;
+  margin: 5px auto;
+  min-width: 100%;
+  height: 50px;
+  line-height:50px;
+  font-size:30px;
+  color: #304269;
+  border: 7px solid #91BED4;
+}
+
+/* CHANGE COLOR FOR PLACEHOLDER *****/
+
+input::-webkit-input-placeholder {
+   color: #2D2D2D;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: #2D2D2D;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: #2D2D2D; 
+}
+
+input:-ms-input-placeholder {  
+   color: #2D2D2D;  
+}
+
+
+.shares-circle{
+  display:inline-block;
+  border-radius:50%;
+  background:#fff;
+  height:50px;
+  width:50px;
+  margin-left: 10px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.c1{
+  background:url(img/fb.png);
+}
+.c2{
+  background:url(img/gl.png);
+}
+.c3{
+  background:url(img/tw.png);
+}
+.c4{
+  background:url(img/vk.png);
+}
+
+/* F O O T E R **********************************************/
+.footer {
+  border-top:7px solid #F26101;
+  background:#2D2D2D;
+  width: 100%;
+  min-height: 150px;
+  font-size: 16px;
+}
+
+.footer ul{
+ list-style: none;
+ padding: 0;
+}
+
+.footer ul li{
+ padding-top: 5px;
+}
+
+.row-footer{
+ padding-top: 15px;
+ color: #fff;
+}
+
+.col2{
+ text-align: center;
+}
+.fa-trophy{
+  font-size:68px;
+}
+.col3 {
+ text-align: right;
+}
+
+.footer a{
+ font-size: 16px;
+ color: #fff;
+}
+
+.footer a:hover{
+ color: #F26101;
+ text-decoration:none;
+}
+
