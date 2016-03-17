@@ -1,0 +1,12 @@
+[core]
+	bare = false
+	filemode = false
+	symlinks = false
+	ignorecase = true
+	logallrefupdates = true
+[core]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/Dancyg/newRepo.git
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
